@@ -2,14 +2,16 @@
 
 Welcome to your interactive, beginner-friendly, and story-driven guide to setting up Python virtual environments.
 
----
+## 💡 Why is this important? [Real-World Example]
 
-## 👨‍💻 Meet Samih
+Imagine you're a freelance developer:
 
-> Meet **Samih**, a sharp, detail-obsessed freelance **Computational Data Scientist** and Python specialist who blends scientific enhancement to real-world problem solving. With a toolkit full of Python and known for his clean code, reproducible workflow, automation scripts, mathematical research approach, and battle-tested workflows, Samih treats every project like a production-grade experiment.
+- Client A wants a data dashboard built with **Plotly 4.5**
+- Client B needs an automation script using **Plotly 5.15**
 
-Before writing a single line of logic or training a model, **Samih always begins with the most important step**:  
-**Setting up a clean, isolated, and reproducible Python environment.**
+If you install both globally, one version will overwrite the other — and suddenly, a client's app stops working.
+
+🎯 The solution? Create a **virtual environment** for each project. Each setup stays clean, isolated, and consistent — so your code runs reliably anywhere, anytime.
 
 ---
 
@@ -26,38 +28,24 @@ Each step is in its own notebook with:
 
 ---
 
-## 📘 Interactive Notebooks
+## 🧰 Tools We’ll Use
 
-| Step | Title | Description |
-|------|-------|-------------|
-| 00 | [Walkthrough Intro](00_virtual-environment-walkthrough.ipynb) | Story setup + index |
-| 01 | [Check Python Version](step01_check-python-version.ipynb) | Ensure you have Python 3.6+ installed |
-| 02 | [Create Project Directory](step02_create-project-directory.ipynb) | Organize your work before you start |
-| 03 | [Create Virtual Environment](step03_create-virtual-environment.ipynb) | Build an isolated environment using `venv` |
-| 04 | [Activate Environment (macOS/Linux)](step04_activate-environment-macos-linux.ipynb) | Start your environment on Unix systems |
-| 05 | [Activate Environment (Windows)](step05_activate-environment-windows.ipynb) | Start your environment on Windows |
-| 06 | [Install Python Packages](step06_install-python-packages.ipynb) | Add libraries like `pandas`, `matplotlib` |
-| 07 | [Freeze to requirements.txt](step07_freeze-environment-requirements.ipynb) | Save current setup to share or reuse |
-| 08 | [Deactivate the Environment](step08_deactivate-virtual-environment.ipynb) | Exit the virtual environment |
-| 09 | [Recreate from requirements.txt](step09_recreate-environment-from-requirements.ipynb) | Rebuild setup for collaboration |
-
----
-
-## 💡 Why This Format?
-
-Storytelling + interactivity = better learning.  
-You’ll not only learn **what** to do, but **why**, through a practical narrative.
+| Tool             | Role                                               |
+|------------------|----------------------------------------------------|
+| `venv`           | Built-in Python tool to create virtual environments |
+| `pip`            | Installs Python packages                            |
+| `requirements.txt` | Keeps track of installed packages                |
 
 ---
 
 ## 🔗 Clone and Start Learning
 
 ```bash
-git clone https://github.com/your-username/venv-setup-guide.git
-cd venv-setup-guide
+git clone https://github.com/samih2shaikh/python-virtual-environments-explained.git
+cd python-virtual-environments-explained
 ```
 
-Start with 👉 [00_virtual-environment-walkthrough.ipynb](00_virtual-environment-walkthrough.ipynb)
+Start with 👉 [step01_check-python-version.ipynb](step01_check-python-version.ipynb)
 
 ---
 
